@@ -21,6 +21,7 @@
   "homepage": "https://github.com/liusaint/leetcode#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "puppeteer": "^1.3.0",
     "superagent": "^3.8.2"
   }
 }
