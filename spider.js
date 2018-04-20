@@ -42,8 +42,8 @@ const path = require('path');
 
     fs.readFile('./README.md', 'utf8', function(err, data) {
         if (err) throw err;
-
-        var res = data.replace('/表格\s+###表格结束','表格\n'+table+'\n表格结束');
+// console.log(data.match())
+        var res = data.replace(/表格\s+###表格结束/,'表格\n'+table+'\n表格结束');
         fs.writeFileSync(path.join(__dirname, 'README.md'),res);
 console.log(res)
     });
