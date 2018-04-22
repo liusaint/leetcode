@@ -1,5 +1,3 @@
-
-
 /*用于从https://leetcode-cn.com爬取题目和完成状态。
  *ls 20180421
  */
@@ -17,6 +15,11 @@ const puppeteer = require('puppeteer');
 const baseUrl = 'https://leetcode-cn.com';
 const fs = require('fs');
 const path = require('path');
+//将用户名和密码保存在这个文件。这个文件不上传到github，避免泄露。
+const setting = require('./config.js');
+//登录。密码可别泄露了。。。
+const user = setting.user;
+const pwd = setting.password;
 
 
 
@@ -26,17 +29,15 @@ const path = require('path');
     //到登录页面
     await page.goto(loginUrl);
 
-    //登录。密码可别泄露了。。。
-    const userName = '';
-    const pwd = '';
-    await page.type('#id_login', userName);
+    await page.type('#id_login', user);
     await page.type('#id_password', pwd);
+
     await page.click('.auth-action-btn');
 
     //等待页面加载出来，等同于window.onload
     await page.waitForNavigation({
         waitUntil: 'load'
-    }); 
+    });
 
     await page.goto(url);
     //延迟2s等页面内容加载出来。
@@ -82,7 +83,7 @@ const path = require('path');
     //读取readme.md。替换指定位置的内容 。填入表格。
     fs.readFile('./README.md', 'utf8', function(err, data) {
         if (err) throw err;
-        var res = data.replace(/解题进度:[\s\S]+?\n/,'解题进度:'+progress+'\n');
+        var res = data.replace(/解题进度:[\s\S]+?\n/, '解题进度:' + progress + '\n');
         var res = res.replace(/### 表格[\s\S]+\n表格结束/, '### 表格\n' + table + '\n表格结束');
         fs.writeFileSync(path.join(__dirname, 'README.md'), res);
 
@@ -107,4 +108,3 @@ function timeout(inteval) {
         }, inteval);
     })
 }
-
