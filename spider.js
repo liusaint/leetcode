@@ -87,7 +87,7 @@ let questionArr = [];
             // obj.getHref = ''
             obj.fileName = obj.href.split('https://leetcode-cn.com/problems/')[1];
             //使用中文名+链接中的英文命名
-            obj.folderName = 'Algorithms/' + obj.index + obj.title　 + 　obj.fileName;
+            obj.folderName = 'Algorithms/' + getIndex(obj.index) + obj.title　 + 　obj.fileName;
             obj.fullPath = obj.folderName + "/" + obj.fileName + ".js";
             obj.gitHref = 'https://github.com/liusaint/leetcode/blob/master/' + obj.fullPath;
 
@@ -220,4 +220,15 @@ function timeout(inteval) {
     })
 }
 
- 
+
+//补全三位
+function getIndex(num) {
+    var len = num.toString().length;
+    if (len == 1) {
+        return '00' + num;
+    }
+    if (len == 2) {
+        return '0' + num;
+    }
+    return num;
+}
