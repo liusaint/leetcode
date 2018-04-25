@@ -49,14 +49,14 @@ let questionArr = [];
 
     //延迟2s等页面内容加载出来。
     await timeout(2000);
-    // await page.evaluate(() => {
-    //     //设置每页的数量为全部。然后刷新。
-    //     var pageSize = $('.reactable-pagination .form-control').find('option:last-child').val();
-    //     localStorage.setItem('problem-list:itemsPerPage', pageSize);
-    //     location.reload()
+    await page.evaluate(() => {
+        //设置每页的数量为全部。然后刷新。
+        var pageSize = $('.reactable-pagination .form-control').find('option:last-child').val();
+        localStorage.setItem('problem-list:itemsPerPage', pageSize);
+        location.reload()
 
-    // });
-    // await timeout(4000);
+    });
+    await timeout(4000);
     await page.screenshot({
         path: 'page.png'
     }); //截个图
@@ -142,7 +142,7 @@ function createFile(obj) {
     }
 
     fs.writeFile(obj.fullPath, beautyJs(obj.code, {
-        indent_size: 2,
+        indent_size: 4,
         space_in_empty_paren: true
     }), function() {});
 
@@ -152,7 +152,7 @@ function createFile(obj) {
 //遍历文件url。依次爬取每一个解答。
 async function createFiles(browser, page) {
 
-    questionArr.length = 8;
+    // questionArr.length = 8;
     for (var i = 0; i < questionArr.length; i++) {
 
         var obj = questionArr[i];
@@ -163,17 +163,16 @@ async function createFiles(browser, page) {
         if (fs.existsSync(obj.fullPath)) {
             continue;
         }
-        //到登录页面
-        console.log(obj.codeHref);
+        //到查看提交记录页面。
+        // console.log(obj.codeHref);
         await page.goto(obj.codeHref + "/1", {
             waitUntil: 'networkidle0'
         });
 
-
         await timeout(2000)
-        await page.screenshot({
-            path: obj.fileName + '.png'
-        }); //截个图
+        // await page.screenshot({
+        //     path: obj.fileName + '.png'
+        // }); //截个图
         //跳转到详情页面。
         await page.evaluate(() => {
             $('a.text-success')[0].click()
@@ -181,9 +180,9 @@ async function createFiles(browser, page) {
 
         await timeout(2000);
 
-        await page.screenshot({
-            path: obj.fileName + '11.png'
-        }); //截个图
+        // await page.screenshot({
+        //     path: obj.fileName + '11.png'
+        // }); //截个图
 
 
         obj.code = await page.evaluate(() => {
@@ -191,7 +190,12 @@ async function createFiles(browser, page) {
             if ($(".ace_cjk").parent().length > 0) {
                 $(".ace_cjk").parent().each(function(index, el) {
                     var text = $(el).text();
-                    text = text.replace("//", '');
+                    // 对于本来就是在这样注释的，不进行处理。
+                    // if(text.inexOf('/*')>-1||text.indexOf('*/')>-1){
+                    //     return;
+                    // }
+
+                     text = text.replace("//", '');
                     $(el).text('/*' + text + "*/");
                 })
             }
@@ -215,3 +219,5 @@ function timeout(inteval) {
         }, inteval);
     })
 }
+
+ 
