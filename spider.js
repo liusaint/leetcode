@@ -78,7 +78,9 @@ let questionArr = [];
             rate: tds.eq(4).text(),
             level: tds.eq(5).text(),
         }
-
+        // https://github.com/liusaint/ls-blog/tree/master/code/es6/es6.js
+        // https://github.com/liusaint/leetcode
+        // 
         if (obj.status == '√') {
             //已解决的页面。
             obj.codeHref = obj.href + '/submissions/';
@@ -87,7 +89,7 @@ let questionArr = [];
             //使用中文名+链接中的英文命名
             obj.folderName = 'Algorithms/' + obj.index + obj.title　 + 　obj.fileName;
             obj.fullPath = obj.folderName + "/" + obj.fileName + ".js";
-            obj.gitHref = 'https://github.com/liusaint/leetcode/tree/master/Algorithms/' + obj.fullPath;
+            obj.gitHref = 'https://github.com/liusaint/leetcode/blob/master/' + obj.fullPath;
 
             obj.gitHref = obj.gitHref.replace(/\s/g, '%20');
         } else {
