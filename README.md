@@ -3,7 +3,7 @@
 * 表格内容由spider.js从leetcode-cn.com爬取。
 * 已做题目答案也从leetcode-cn.com中爬取并生成文件。
 
-#### 解题进度:已解决 59/601 - 简单 50 中等 7 困难 2
+#### 解题进度:已解决 60/601 - 简单 51 中等 7 困难 2
 
 ### 表格
  序号 | 题名 | 通过率 | 难度 | 答案 |状态  
@@ -22,7 +22,7 @@
  12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | 51.4% | 中等 |  |  
  13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | 54.4% | 简单 |  |  
  14 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | 27.0% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/014最长公共前缀longest-common-prefix/longest-common-prefix.js) | √
- 15 | [三数之和](https://leetcode-cn.com/problems/3sum) | 13.4% | 中等 |  |  
+ 15 | [三数之和](https://leetcode-cn.com/problems/3sum) | 13.5% | 中等 |  |  
  16 | [最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest) | 30.7% | 中等 |  |  
  17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | 39.0% | 中等 |  |  
  18 | [四数之和](https://leetcode-cn.com/problems/4sum) | 29.0% | 中等 |  |  
@@ -32,7 +32,7 @@
  22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses) | 59.7% | 中等 |  |  
  23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) | 31.4% | 困难 |  |  
  24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | 41.0% | 中等 |  |  
- 25 | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | 41.2% | 困难 |  |  
+ 25 | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | 41.0% | 困难 |  |  
  26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | 35.7% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/026删除排序数组中的重复项remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.js) | √
  27 | [移除元素](https://leetcode-cn.com/problems/remove-element) | 46.0% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/027移除元素remove-element/remove-element.js) | √
  28 | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr) | 30.7% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/028实现strStr()implement-strstr/implement-strstr.js) | √
@@ -44,10 +44,10 @@
  34 | [搜索范围](https://leetcode-cn.com/problems/search-for-a-range) | 30.1% | 中等 |  |  
  35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position) | 39.8% | 简单 |  |  
  36 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku) | 43.9% | 中等 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/036有效的数独valid-sudoku/valid-sudoku.js) | √
- 37 | [解数独](https://leetcode-cn.com/problems/sudoku-solver) | 42.5% | 困难 |  |  
+ 37 | [解数独](https://leetcode-cn.com/problems/sudoku-solver) | 42.3% | 困难 |  |  
  38 | [报数](https://leetcode-cn.com/problems/count-and-say) | 46.4% | 简单 |  |  
  39 | [组合总和](https://leetcode-cn.com/problems/combination-sum) | 53.6% | 中等 |  |  
- 40 | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii) | 43.5% | 中等 |  |  
+ 40 | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii) | 43.4% | 中等 |  |  
  41 | [缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | 25.1% | 困难 |  |  
  42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | 30.6% | 困难 |  |  
  43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | 28.8% | 中等 |  |  
@@ -56,7 +56,7 @@
  46 | [全排列](https://leetcode-cn.com/problems/permutations) | 62.3% | 中等 |  |  
  47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii) | 42.5% | 中等 |  |  
  48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | 52.8% | 中等 |  |  
- 49 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams) | 43.4% | 中等 |  |  
+ 49 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams) | 43.5% | 中等 |  |  
  50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | 21.9% | 中等 |  |  
  51 | [N皇后](https://leetcode-cn.com/problems/n-queens) | 48.6% | 困难 |  |  
  52 | [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | 67.8% | 困难 |  |  
@@ -71,11 +71,11 @@
  61 | [旋转链表](https://leetcode-cn.com/problems/rotate-list) | 24.4% | 中等 |  |  
  62 | [不同路径](https://leetcode-cn.com/problems/unique-paths) | 43.7% | 中等 |  |  
  63 | [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii) | 26.9% | 中等 |  |  
- 64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum) | 55.5% | 中等 |  |  
+ 64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum) | 55.6% | 中等 |  |  
  65 | [有效数字](https://leetcode-cn.com/problems/valid-number) | 7.3% | 困难 |  |  
  66 | [加一](https://leetcode-cn.com/problems/plus-one) | 34.6% | 简单 |  |  
  67 | [二进制求和](https://leetcode-cn.com/problems/add-binary) | 34.7% | 简单 |  |  
- 68 | [文本左右对齐](https://leetcode-cn.com/problems/text-justification) | 17.1% | 困难 |  |  
+ 68 | [文本左右对齐](https://leetcode-cn.com/problems/text-justification) | 17.7% | 困难 |  |  
  69 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx) | 28.5% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/069x%20的平方根sqrtx/sqrtx.js) | √
  70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs) | 39.8% | 简单 |  |  
  71 | [简化路径](https://leetcode-cn.com/problems/simplify-path) | 20.7% | 中等 |  |  
@@ -107,9 +107,9 @@
  97 | [交错字符串](https://leetcode-cn.com/problems/interleaving-string) | 18.8% | 困难 |  |  
  98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | 19.5% | 中等 |  |  
  99 | [恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree) | 33.8% | 困难 |  |  
- 100 | [相同的树](https://leetcode-cn.com/problems/same-tree) | 48.9% | 简单 |  |  
+ 100 | [相同的树](https://leetcode-cn.com/problems/same-tree) | 49.0% | 简单 |  |  
  101 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree) | 37.6% | 简单 |  |  
- 102 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | 45.2% | 中等 |  |  
+ 102 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | 45.3% | 中等 |  |  
  103 | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal) | 42.7% | 中等 |  |  
  104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | 59.5% | 简单 |  |  
  105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 51.1% | 中等 |  |  
@@ -129,7 +129,7 @@
  119 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii) | 44.4% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/119杨辉三角%20IIpascals-triangle-ii/pascals-triangle-ii.js) | √
  120 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle) | 42.5% | 中等 |  |  
  121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | 39.9% | 简单 |  |  
- 122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | 40.3% | 简单 |  |  
+ 122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | 40.4% | 简单 |  |  
  123 | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii) | 19.7% | 困难 |  |  
  124 | [二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum) | 26.7% | 困难 |  |  
  125 | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome) | 25.5% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/125验证回文串valid-palindrome/valid-palindrome.js) | √
@@ -151,7 +151,7 @@
  141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 28.9% | 简单 |  |  
  142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 27.3% | 中等 |  |  
  143 | [重排链表](https://leetcode-cn.com/problems/reorder-list) | 38.6% | 中等 |  |  
- 144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) | 46.7% | 中等 |  |  
+ 144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) | 46.6% | 中等 |  |  
  145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) | 59.9% | 困难 |  |  
  146 | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache) | 29.5% | 困难 |  |  
  147 | [对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list) | 29.6% | 中等 |  |  
@@ -162,15 +162,15 @@
  152 | [乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray) | 24.8% | 中等 |  |  
  153 | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array) | 35.4% | 中等 |  |  
  154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii) | 40.3% | 困难 |  |  
- 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | 44.0% | 简单 |  |  
+ 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | 44.1% | 简单 |  |  
  160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | 29.0% | 简单 |  |  
- 162 | [寻找峰值](https://leetcode-cn.com/problems/find-peak-element) | 39.0% | 中等 |  |  
+ 162 | [寻找峰值](https://leetcode-cn.com/problems/find-peak-element) | 38.9% | 中等 |  |  
  164 | [最大间距](https://leetcode-cn.com/problems/maximum-gap) | 41.0% | 困难 |  |  
- 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) | 18.0% | 中等 |  |  
+ 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) | 18.2% | 中等 |  |  
  166 | [分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal) | 22.3% | 中等 |  |  
  167 | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted) | 37.6% | 简单 |  |  
  168 | [Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title) | 24.9% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/168Excel表列名称excel-sheet-column-title/excel-sheet-column-title.js) | √
- 169 | [求众数](https://leetcode-cn.com/problems/majority-element) | 45.3% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/169求众数majority-element/majority-element.js) | √
+ 169 | [求众数](https://leetcode-cn.com/problems/majority-element) | 45.4% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/169求众数majority-element/majority-element.js) | √
  171 | [Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number) | 53.3% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/171Excel表列序号excel-sheet-column-number/excel-sheet-column-number.js) | √
  172 | [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes) | 33.3% | 简单 |  |  
  173 | [二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator) | 52.0% | 中等 |  |  
@@ -186,7 +186,7 @@
  200 | [岛屿的个数](https://leetcode-cn.com/problems/number-of-islands) | 35.4% | 中等 |  |  
  201 | [数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range) | 26.6% | 中等 |  |  
  202 | [快乐数](https://leetcode-cn.com/problems/happy-number) | 39.8% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/202快乐数happy-number/happy-number.js) | √
- 203 | [删除链表中的元素](https://leetcode-cn.com/problems/remove-linked-list-elements) | 32.9% | 简单 |  |  
+ 203 | [删除链表中的元素](https://leetcode-cn.com/problems/remove-linked-list-elements) | 32.8% | 简单 |  |  
  204 | [计数质数](https://leetcode-cn.com/problems/count-primes) | 17.8% | 简单 |  |  
  205 | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings) | 33.2% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/205同构字符串isomorphic-strings/isomorphic-strings.js) | √
  206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | 41.2% | 简单 |  |  
@@ -196,7 +196,7 @@
  210 | [课程表 II](https://leetcode-cn.com/problems/course-schedule-ii) | 31.8% | 中等 |  |  
  211 | [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design) | 36.8% | 中等 |  |  
  212 | [单词搜索 II](https://leetcode-cn.com/problems/word-search-ii) | 21.0% | 困难 |  |  
- 213 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii) | 28.7% | 中等 |  |  
+ 213 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii) | 28.5% | 中等 |  |  
  214 | [最短回文串](https://leetcode-cn.com/problems/shortest-palindrome) | 26.2% | 困难 |  |  
  215 | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | 36.2% | 中等 |  |  
  216 | [组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii) | 38.9% | 中等 |  |  
@@ -204,7 +204,7 @@
  218 | [天际线问题](https://leetcode-cn.com/problems/the-skyline-problem) | 46.3% | 困难 |  |  
  219 | [存在重复 II](https://leetcode-cn.com/problems/contains-duplicate-ii) | 21.2% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/219存在重复%20IIcontains-duplicate-ii/contains-duplicate-ii.js) | √
  220 | [存在重复 III](https://leetcode-cn.com/problems/contains-duplicate-iii) | 16.6% | 中等 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/220存在重复%20IIIcontains-duplicate-iii/contains-duplicate-iii.js) | √
- 221 | [最大正方形](https://leetcode-cn.com/problems/maximal-square) | 24.0% | 中等 |  |  
+ 221 | [最大正方形](https://leetcode-cn.com/problems/maximal-square) | 24.2% | 中等 |  |  
  222 | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) | 25.8% | 中等 |  |  
  223 | [矩形面积](https://leetcode-cn.com/problems/rectangle-area) | 25.7% | 中等 |  |  
  224 | [基本计算器](https://leetcode-cn.com/problems/basic-calculator) | 24.2% | 困难 |  |  
@@ -228,9 +228,9 @@
  242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram) | 39.1% | 简单 |  |  
  257 | [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths) | 51.7% | 简单 |  |  
  258 | [各位相加](https://leetcode-cn.com/problems/add-digits) | 50.1% | 简单 |  |  
- 260 | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) | 53.4% | 中等 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/260只出现一次的数字%20IIIsingle-number-iii/single-number-iii.js) | √
+ 260 | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) | 53.6% | 中等 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/260只出现一次的数字%20IIIsingle-number-iii/single-number-iii.js) | √
  263 | [丑数](https://leetcode-cn.com/problems/ugly-number) | 32.9% | 简单 |  |  
- 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | 24.0% | 中等 |  |  
+ 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | 23.8% | 中等 |  |  
  268 | [缺失数字](https://leetcode-cn.com/problems/missing-number) | 43.9% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/268缺失数字missing-number/missing-number.js) | √
  273 | [整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words) | 12.1% | 困难 |  |  
  274 | [H指数](https://leetcode-cn.com/problems/h-index) | 25.7% | 中等 |  |  
@@ -250,7 +250,7 @@
  300 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence) | 33.1% | 中等 |  |  
  301 | [删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses) | 27.9% | 困难 |  |  
  303 | [区域和检索 - 不可变](https://leetcode-cn.com/problems/range-sum-query-immutable) | 48.7% | 简单 |  |  
- 304 | [二维区域和检索 - 不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable) | 31.4% | 中等 |  |  
+ 304 | [二维区域和检索 - 不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable) | 31.3% | 中等 |  |  
  306 | [Additive Number](https://leetcode-cn.com/problems/additive-number) | 43.8% | 中等 |  |  
  307 | [Range Sum Query - Mutable](https://leetcode-cn.com/problems/range-sum-query-mutable) | 28.9% | 中等 |  |  
  309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | 45.5% | 中等 |  |  
@@ -290,7 +290,7 @@
  357 | [计算各个位数不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits) | 30.6% | 中等 |  |  
  363 | [Max Sum of Rectangle No Larger Than K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k) | 9.8% | 困难 |  |  
  365 | [水壶问题](https://leetcode-cn.com/problems/water-and-jug-problem) | 12.9% | 中等 |  |  
- 367 | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square) | 35.6% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/367有效的完全平方数valid-perfect-square/valid-perfect-square.js) | √
+ 367 | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square) | 35.7% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/367有效的完全平方数valid-perfect-square/valid-perfect-square.js) | √
  368 | [最大整除子集](https://leetcode-cn.com/problems/largest-divisible-subset) | 26.6% | 中等 |  |  
  371 | [两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers) | 53.5% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/371两整数之和sum-of-two-integers/sum-of-two-integers.js) | √
  372 | [超级次方](https://leetcode-cn.com/problems/super-pow) | 21.9% | 中等 |  |  
@@ -303,7 +303,7 @@
  380 | [常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1) | 43.7% | 中等 |  |  
  381 | [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed) | 24.0% | 困难 |  |  
  382 | [链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node) | 43.1% | 中等 |  |  
- 383 | [赎金信](https://leetcode-cn.com/problems/ransom-note) | 38.1% | 简单 |  |  
+ 383 | [赎金信](https://leetcode-cn.com/problems/ransom-note) | 38.2% | 简单 |  |  
  384 | [打乱数组](https://leetcode-cn.com/problems/shuffle-an-array) | 41.7% | 中等 |  |  
  385 | [Mini Parser](https://leetcode-cn.com/problems/mini-parser) | 35.0% | 中等 |  |  
  386 | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers) | 34.1% | 中等 |  |  
@@ -324,7 +324,7 @@
  401 | [二进制手表](https://leetcode-cn.com/problems/binary-watch) | 27.1% | 简单 |  |  
  402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits) | 19.6% | 中等 |  |  
  403 | [青蛙过河](https://leetcode-cn.com/problems/frog-jump) | 18.0% | 困难 |  |  
- 404 | [左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves) | 43.3% | 简单 |  |  
+ 404 | [左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves) | 43.4% | 简单 |  |  
  405 | [数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal) | 34.8% | 简单 |  |  
  406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height) | 36.9% | 中等 |  |  
  407 | [接雨水 II](https://leetcode-cn.com/problems/trapping-rain-water-ii) | 21.4% | 困难 |  |  
@@ -332,7 +332,7 @@
  410 | [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum) | 26.2% | 困难 |  |  
  412 | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz) | 51.1% | 简单 |  |  
  413 | [等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices) | 55.8% | 中等 |  |  
- 414 | [第三大的数](https://leetcode-cn.com/problems/third-maximum-number) | 25.0% | 简单 |  |  
+ 414 | [第三大的数](https://leetcode-cn.com/problems/third-maximum-number) | 25.1% | 简单 |  |  
  415 | [字符串相加](https://leetcode-cn.com/problems/add-strings) | 35.4% | 简单 |  |  
  416 | [Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum) | 25.8% | 中等 |  |  
  417 | [Pacific Atlantic Water Flow](https://leetcode-cn.com/problems/pacific-atlantic-water-flow) | 37.3% | 中等 |  |  
@@ -365,9 +365,9 @@
  456 | [132模式](https://leetcode-cn.com/problems/132-pattern) | 18.8% | 中等 |  |  
  459 | [重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern) | 29.9% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/459重复的子字符串repeated-substring-pattern/repeated-substring-pattern.js) | √
  460 | [LFU缓存](https://leetcode-cn.com/problems/lfu-cache) | 19.3% | 困难 |  |  
- 461 | [汉明距离](https://leetcode-cn.com/problems/hamming-distance) | 64.2% | 简单 |  |  
+ 461 | [汉明距离](https://leetcode-cn.com/problems/hamming-distance) | 64.0% | 简单 |  |  
  462 | [最少移动次数使数组元素相等 II](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii) | 44.0% | 中等 |  |  
- 463 | [岛屿的周长](https://leetcode-cn.com/problems/island-perimeter) | 53.1% | 简单 |  |  
+ 463 | [岛屿的周长](https://leetcode-cn.com/problems/island-perimeter) | 53.2% | 简单 |  |  
  464 | [Can I Win](https://leetcode-cn.com/problems/can-i-win) | 29.2% | 中等 |  |  
  466 | [Count The Repetitions](https://leetcode-cn.com/problems/count-the-repetitions) | 21.4% | 困难 |  |  
  467 | [Unique Substrings in Wraparound String](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string) | 25.0% | 中等 |  |  
@@ -384,7 +384,7 @@
  482 | [License Key Formatting](https://leetcode-cn.com/problems/license-key-formatting) | 25.0% | 简单 |  |  
  483 | [Smallest Good Base](https://leetcode-cn.com/problems/smallest-good-base) | 33.3% | 困难 |  |  
  485 | [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones) | 49.3% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/485最大连续1的个数max-consecutive-ones/max-consecutive-ones.js) | √
- 486 | [预测赢家](https://leetcode-cn.com/problems/predict-the-winner) | 37.6% | 中等 |  |  
+ 486 | [预测赢家](https://leetcode-cn.com/problems/predict-the-winner) | 38.3% | 中等 |  |  
  488 | [祖玛游戏](https://leetcode-cn.com/problems/zuma-game) | 75.0% | 困难 |  |  
  491 | [递增子序列](https://leetcode-cn.com/problems/increasing-subsequences) | 30.8% | 中等 |  |  
  492 | [Construct the Rectangle](https://leetcode-cn.com/problems/construct-the-rectangle) | 32.9% | 简单 |  |  
@@ -407,7 +407,7 @@
  516 | [最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence) | 36.7% | 中等 |  |  
  517 | [Super Washing Machines](https://leetcode-cn.com/problems/super-washing-machines) | 36.8% | 困难 |  |  
  520 | [检测大写字母](https://leetcode-cn.com/problems/detect-capital) | 45.2% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/520检测大写字母detect-capital/detect-capital.js) | √
- 521 | [最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i) | 44.0% | 简单 |  |  
+ 521 | [最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i) | 43.8% | 简单 |  |  
  522 | [Longest Uncommon Subsequence II](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii) | 17.6% | 中等 |  |  
  523 | [Continuous Subarray Sum](https://leetcode-cn.com/problems/continuous-subarray-sum) | 18.1% | 中等 |  |  
  524 | [Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting) | 23.0% | 中等 |  |  
@@ -422,7 +422,7 @@
  539 | [最小时间差](https://leetcode-cn.com/problems/minimum-time-difference) | 17.3% | 中等 |  |  
  540 | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array) | 45.1% | 中等 |  |  
  541 | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii) | 32.3% | 简单 |  |  
- 542 | [01 矩阵](https://leetcode-cn.com/problems/01-matrix) | 27.6% | 中等 |  |  
+ 542 | [01 矩阵](https://leetcode-cn.com/problems/01-matrix) | 26.9% | 中等 |  |  
  543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | 31.7% | 简单 |  |  
  546 | [Remove Boxes](https://leetcode-cn.com/problems/remove-boxes) | 66.7% | 困难 |  |  
  547 | [朋友圈](https://leetcode-cn.com/problems/friend-circles) | 35.8% | 中等 |  |  
@@ -430,7 +430,7 @@
  552 | [学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii) | 35.7% | 困难 |  |  
  553 | [Optimal Division](https://leetcode-cn.com/problems/optimal-division) | 31.4% | 中等 |  |  
  554 | [Brick Wall](https://leetcode-cn.com/problems/brick-wall) | 53.8% | 中等 |  |  
- 556 | [下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii) | 21.0% | 中等 |  |  
+ 556 | [下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii) | 20.6% | 中等 |  |  
  557 | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii) | 59.7% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/557反转字符串中的单词%20IIIreverse-words-in-a-string-iii/reverse-words-in-a-string-iii.js) | √
  560 | [和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k) | 31.3% | 中等 |  |  
  561 | [数组拆分 I](https://leetcode-cn.com/problems/array-partition-i) | 56.5% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/561数组拆分%20Iarray-partition-i/array-partition-i.js) | √
@@ -448,7 +448,7 @@
  591 | [标签验证器](https://leetcode-cn.com/problems/tag-validator) | 13.0% | 困难 |  |  
  592 | [Fraction Addition and Subtraction](https://leetcode-cn.com/problems/fraction-addition-and-subtraction) | 51.5% | 中等 |  |  
  593 | [有效的正方形](https://leetcode-cn.com/problems/valid-square) | 33.5% | 中等 |  |  
- 594 | [最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence) | 28.9% | 简单 |  |  
+ 594 | [最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence) | 29.1% | 简单 |  |  
  598 | [范围求和 II](https://leetcode-cn.com/problems/range-addition-ii) | 41.9% | 简单 |  |  
  599 | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists) | 43.9% | 简单 |  |  
  600 | [不含连续1的非负整数](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones) | 14.3% | 困难 |  |  
@@ -459,7 +459,7 @@
  617 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees) | 58.0% | 简单 |  |  
  621 | [任务调度器](https://leetcode-cn.com/problems/task-scheduler) | 49.7% | 中等 |  |  
  623 | [在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree) | 46.4% | 中等 |  |  
- 628 | [三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers) | 36.2% | 简单 |  |  
+ 628 | [三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers) | 36.3% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/628三个数的最大乘积maximum-product-of-three-numbers/maximum-product-of-three-numbers.js) | √
  629 | [K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array) | 22.2% | 困难 |  |  
  630 | [Course Schedule III](https://leetcode-cn.com/problems/course-schedule-iii) | 38.5% | 困难 |  |  
  632 | [最小区间](https://leetcode-cn.com/problems/smallest-range) | 33.3% | 困难 |  |  
@@ -548,7 +548,7 @@
  746 | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs) | 35.7% | 简单 |  |  
  747 | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others) | 35.0% | 简单 |  |  
  748 | [Shortest Completing Word](https://leetcode-cn.com/problems/shortest-completing-word) | 33.3% | 中等 |  |  
- 749 | [Contain Virus](https://leetcode-cn.com/problems/contain-virus) | N/A | 困难 |  |  
+ 749 | [Contain Virus](https://leetcode-cn.com/problems/contain-virus) | 11.1% | 困难 |  |  
  752 | [Open the Lock](https://leetcode-cn.com/problems/open-the-lock) | 19.1% | 中等 |  |  
  753 | [Cracking the Safe](https://leetcode-cn.com/problems/cracking-the-safe) | 18.8% | 困难 |  |  
  754 | [到达终点数字](https://leetcode-cn.com/problems/reach-a-number) | 21.4% | 中等 |  |  
@@ -569,7 +569,7 @@
  775 | [Global and Local Inversions](https://leetcode-cn.com/problems/global-and-local-inversions) | 22.2% | 中等 |  |  
  777 | [在LR字符串中交换相邻字符](https://leetcode-cn.com/problems/swap-adjacent-in-lr-string) | 16.3% | 中等 |  |  
  778 | [Swim in Rising Water](https://leetcode-cn.com/problems/swim-in-rising-water) | 42.9% | 困难 |  |  
- 779 | [第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar) | 28.2% | 中等 |  |  
+ 779 | [第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar) | 28.7% | 中等 |  |  
  780 | [Reaching Points](https://leetcode-cn.com/problems/reaching-points) | 19.5% | 困难 |  |  
  781 | [Rabbits in Forest](https://leetcode-cn.com/problems/rabbits-in-forest) | 44.0% | 中等 |  |  
  782 | [Transform to Chessboard](https://leetcode-cn.com/problems/transform-to-chessboard) | 33.3% | 困难 |  |  
@@ -595,7 +595,7 @@
  803 | [打砖块](https://leetcode-cn.com/problems/bricks-falling-when-hit) | 3.4% | 困难 |  |  
  804 | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words) | 63.5% | 简单 |  |  
  805 | [数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average) | 16.9% | 困难 |  |  
- 806 | [写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string) | 54.4% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/806写字符串需要的行数number-of-lines-to-write-string/number-of-lines-to-write-string.js) | √
+ 806 | [写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string) | 54.3% | 简单 | [查看](https://github.com/liusaint/leetcode/blob/master/Algorithms/806写字符串需要的行数number-of-lines-to-write-string/number-of-lines-to-write-string.js) | √
  807 | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline) | 66.5% | 中等 |  |  
  808 | [分汤](https://leetcode-cn.com/problems/soup-servings) | 21.6% | 中等 |  |  
  809 | [Expressive Words](https://leetcode-cn.com/problems/expressive-words) | 31.6% | 中等 |  |  
