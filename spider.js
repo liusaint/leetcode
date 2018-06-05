@@ -141,7 +141,7 @@ function createFile(obj) {
         fs.mkdirSync(obj.folderName)
     }
     //加上这一句，增加被搜索到的概率。
-    var fileStr = '/* leetcode　' + obj.index + '.' + obj.title + ' JavaScript实现　' + '*/\n\n'+obj.code;
+    var fileStr = '/* leetcode　' + obj.index + '.' + obj.title + ' JavaScript实现　' + '*/\n\n'+ obj.code;
     fs.writeFile(obj.fullPath, beautyJs(fileStr, {
         indent_size: 4,
         space_in_empty_paren: true
