@@ -1,3 +1,5 @@
+/* leetcode　005最长回文子串longest-palindromic-substring JavaScript实现　*/
+
 /** * @param {string} s * @return {string} */
 var longestPalindrome = function(s) {
     if (s.length == 0) {

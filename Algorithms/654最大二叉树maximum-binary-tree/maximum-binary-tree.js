@@ -1,3 +1,5 @@
+/* leetcode　654最大二叉树maximum-binary-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {number[]} nums * @return {TreeNode} */
 var constructMaximumBinaryTree = function(nums) {
     var len = nums.length;

@@ -1,3 +1,5 @@
+/* leetcode　220存在重复元素 IIIcontains-duplicate-iii JavaScript实现　*/
+
 /** * @param {number[]} nums * @param {number} k * @param {number} t * @return {boolean} */
 var containsNearbyAlmostDuplicate = function(nums, k, t) {
     var len = nums.length;

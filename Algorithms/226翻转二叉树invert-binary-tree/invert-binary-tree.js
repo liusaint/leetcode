@@ -1,3 +1,5 @@
+/* leetcode　226翻转二叉树invert-binary-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */
 var invertTree = function(root) {
     if (root == null) {

@@ -1,3 +1,5 @@
+/* leetcode　136只出现一次的数字single-number JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number} */
 var singleNumber = function(nums) {
     var len = nums.length;

@@ -1,3 +1,5 @@
+/* leetcode　623在二叉树中增加一行add-one-row-to-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @param {number} v * @param {number} d * @return {TreeNode} */
 var addOneRow = function(root, v, d) {
     if (root == null) {

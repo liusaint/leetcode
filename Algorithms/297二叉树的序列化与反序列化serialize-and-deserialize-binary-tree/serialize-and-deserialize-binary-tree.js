@@ -1,3 +1,5 @@
+/* leetcode　297二叉树的序列化与反序列化serialize-and-deserialize-binary-tree JavaScript实现　*/
+
 /*只要有一个节点不为空，那么一定要有它的左右节点。*/
 var serialize = function(root) {
     if (root == null) {

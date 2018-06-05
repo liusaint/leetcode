@@ -1,3 +1,5 @@
+/* leetcode　102二叉树的层次遍历binary-tree-level-order-traversal JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @return {number[][]} */
 var levelOrder = function(root) {
     if (root == null) {

@@ -1,3 +1,5 @@
+/* leetcode　671二叉树中第二小的节点second-minimum-node-in-a-binary-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @return {number} */
 var findSecondMinimumValue = function(root, arr) {
     if (!root) {

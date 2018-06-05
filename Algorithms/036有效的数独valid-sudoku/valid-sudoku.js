@@ -1,3 +1,5 @@
+/* leetcode　036有效的数独valid-sudoku JavaScript实现　*/
+
 /** * @param {character[][]} board * @return {boolean} */
 var isValidSudoku = function(board) { /*    检查一个数组中是否有重复。*/
     function checkRepeat(arr) {

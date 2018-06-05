@@ -1,3 +1,5 @@
+/* leetcode　171Excel表列序号excel-sheet-column-number JavaScript实现　*/
+
 /** * @param {string} s * @return {number} */
 var titleToNumber = function(s) {
     var arr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');

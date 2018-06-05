@@ -1,3 +1,5 @@
+/* leetcode　069x 的平方根sqrtx JavaScript实现　*/
+
 /** * @param {number} num * @return {number} */
 var mySqrt = function(num) {
     var i = 0;

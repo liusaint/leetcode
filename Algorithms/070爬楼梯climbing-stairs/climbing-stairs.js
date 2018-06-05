@@ -1,3 +1,5 @@
+/* leetcode　070爬楼梯climbing-stairs JavaScript实现　*/
+
 /** * @param {number} n * @return {number} */ /*已知最后一步可能走2级，也可能走1级。所以f(n-1),f(n-2)之和就是结果了。*/ /*如果一次还可能走3级呢？*/
 var climbStairs = function(n) {
     if (!climbStairs.cache) {

@@ -1,3 +1,5 @@
+/* leetcode　746使用最小花费爬楼梯min-cost-climbing-stairs JavaScript实现　*/
+
 /*1.动态规划不一定要递归。关键是理解整个生成的流程。初始条件，以及中间值的选择逻辑。*/
 var minCostClimbingStairs = function(cost) {
     var n = cost.length;

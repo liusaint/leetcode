@@ -1,3 +1,5 @@
+/* leetcode　001两数之和two-sum JavaScript实现　*/
+
 /** * @param {number[]} nums * @param {number} target * @return {number[]} */
 var twoSum = function(nums, target) {
     var i = 0,

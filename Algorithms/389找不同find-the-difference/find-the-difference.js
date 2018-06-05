@@ -1,3 +1,5 @@
+/* leetcode　389找不同find-the-difference JavaScript实现　*/
+
 /** * @param {string} s * @param {string} t * @return {character} */
 var findTheDifference = function(s, t) {
     var s1 = s.split('').sort();

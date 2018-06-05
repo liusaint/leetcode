@@ -1,3 +1,5 @@
+/* leetcode　219存在重复元素 IIcontains-duplicate-ii JavaScript实现　*/
+
 /** * @param {number[]} nums * @param {number} k * @return {boolean} */
 var containsNearbyDuplicate = function(nums, k) {
     var len = nums.length;

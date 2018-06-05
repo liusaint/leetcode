@@ -1,3 +1,5 @@
+/* leetcode　572另一个树的子树subtree-of-another-tree JavaScript实现　*/
+
 /*遍历判断子节点是否跟子树相同。*/
 var isSubtree = function(s, t) {
     var isSameTree = function(p, q) {

@@ -1,3 +1,5 @@
+/* leetcode　057插入区间insert-interval JavaScript实现　*/
+
 /** * Definition for an interval. * function Interval(start, end) { *     this.start = start; *     this.end = end; * } */ /** * @param {Interval[]} intervals * @param {Interval} newInterval * @return {Interval[]} */ /*合并那个题目的基础上稍微修改一下 加上了合并后的排序*/
 var insert = function(intervals, newInterval) {
     intervals = intervals.concat([newInterval]); /*    保存结果*/

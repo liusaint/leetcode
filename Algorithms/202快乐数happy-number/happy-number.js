@@ -1,3 +1,5 @@
+/* leetcode　202快乐数happy-number JavaScript实现　*/
+
 /** * @param {number} n * @return {boolean} */ /* 这个题目做得不够好。完全是通过暴力的方式通过的。没有去找规律。*/
 var isHappy = function(n) { /*    计算一个数字的每一位的平方和。*/
     function getSum(n) {

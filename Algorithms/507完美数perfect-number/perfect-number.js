@@ -1,3 +1,5 @@
+/* leetcode　507完美数perfect-number JavaScript实现　*/
+
 /** * @param {number} num * @return {boolean} */
 var checkPerfectNumber = function(num) {
     if (num == 0) {

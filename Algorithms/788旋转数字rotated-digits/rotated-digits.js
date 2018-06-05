@@ -1,3 +1,5 @@
+/* leetcode　788旋转数字rotated-digits JavaScript实现　*/
+
 /** * @param {number} N * @return {number} */
 var rotatedDigits = function(N) {
     var res = [];

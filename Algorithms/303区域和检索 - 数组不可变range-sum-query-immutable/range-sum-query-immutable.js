@@ -1,3 +1,5 @@
+/* leetcode　303区域和检索 - 数组不可变range-sum-query-immutable JavaScript实现　*/
+
 /*动态规划。保存一个数组，包含所有位的和。这样只是初始化的时候慢。但是后面的sumRange就很快了。*/
 var NumArray = function(nums) {
     this.sums = [];

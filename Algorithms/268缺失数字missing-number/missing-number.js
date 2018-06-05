@@ -1,3 +1,5 @@
+/* leetcode　268缺失数字missing-number JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number} */
 var missingNumber = function(nums) {
     var resArr = [];

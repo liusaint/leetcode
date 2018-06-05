@@ -1,3 +1,5 @@
+/* leetcode　437路径总和 IIIpath-sum-iii JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @param {number} sum * @return {number} */
 var pathSum = function(root, sum) {
     var count = 0; /*    递归的时候把上一级的path传入。*/

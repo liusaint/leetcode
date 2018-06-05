@@ -1,3 +1,5 @@
+/* leetcode　205同构字符串isomorphic-strings JavaScript实现　*/
+
 /** * @param {string} s * @param {string} t * @return {boolean} */ /*另一种错误的答案是看结构[1,2,1,4]这种没有考虑映射相同字符等等。只是基本的格式相同。*/
 var isIsomorphic = function(s, t) {
     var sArr = s.split('');

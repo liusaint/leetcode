@@ -1,3 +1,5 @@
+/* leetcode　409最长回文串longest-palindrome JavaScript实现　*/
+
 /** * @param {string} s * @return {number} */
 var longestPalindrome = function(s) {
     if (s.length == 0) {

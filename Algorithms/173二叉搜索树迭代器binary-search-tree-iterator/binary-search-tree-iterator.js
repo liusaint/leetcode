@@ -1,3 +1,5 @@
+/* leetcode　173二叉搜索树迭代器binary-search-tree-iterator JavaScript实现　*/
+
 /** * Definition for binary tree * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @constructor * @param {TreeNode} root - root of the binary search tree */
 var BSTIterator = function(root) {
     var readRoot = function(root, callback) {

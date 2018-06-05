@@ -1,3 +1,5 @@
+/* leetcode　653两数之和 IV - 输入 BSTtwo-sum-iv-input-is-a-bst JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @param {number} k * @return {boolean} */
 var findTarget = function(root, k, checkArr) {
     if (!root) {

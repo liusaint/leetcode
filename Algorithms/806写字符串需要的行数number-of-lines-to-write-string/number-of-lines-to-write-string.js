@@ -1,3 +1,5 @@
+/* leetcode　806写字符串需要的行数number-of-lines-to-write-string JavaScript实现　*/
+
 /** * @param {number[]} widths * @param {string} S * @return {number[]} */
 var numberOfLines = function(widths, S) {
     var arr = 'abcdefghijklmnopqrstuvwxyz'.split('');

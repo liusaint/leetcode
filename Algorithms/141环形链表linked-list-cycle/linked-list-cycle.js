@@ -1,3 +1,5 @@
+/* leetcode　141环形链表linked-list-cycle JavaScript实现　*/
+
 /** * Definition for singly-linked list. * function ListNode(val) { *     this.val = val; *     this.next = null; * } */ /** * @param {ListNode} head * @return {boolean} */ /*环并不一定是首尾连接*/
 var hasCycle = function(head) {
     if (head == null) {

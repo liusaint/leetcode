@@ -1,3 +1,5 @@
+/* leetcode　791自定义字符串排序custom-sort-string JavaScript实现　*/
+
 /** * @param {string} S * @param {string} T * @return {string} */
 var customSortString = function(S, T) {
     var sArr = S.split('');

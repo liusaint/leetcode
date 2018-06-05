@@ -1,3 +1,5 @@
+/* leetcode　520检测大写字母detect-capital JavaScript实现　*/
+
 /** * @param {string} word * @return {boolean} */
 var detectCapitalUse = function(word) {
     var bigReg = /[A-Z]+/g;

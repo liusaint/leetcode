@@ -1,3 +1,5 @@
+/* leetcode　049字母异位词分组group-anagrams JavaScript实现　*/
+
 /** * @param {string[]} strs * @return {string[][]} */
 var groupAnagrams = function(strs) {
     var obj = {};

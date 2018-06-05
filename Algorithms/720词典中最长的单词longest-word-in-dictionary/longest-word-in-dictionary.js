@@ -1,3 +1,5 @@
+/* leetcode　720词典中最长的单词longest-word-in-dictionary JavaScript实现　*/
+
 /** * @param {string[]} words * @return {string} */
 var longestWord = function(words) {
     var res = '';

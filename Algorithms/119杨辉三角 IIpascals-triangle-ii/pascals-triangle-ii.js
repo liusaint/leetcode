@@ -1,3 +1,5 @@
+/* leetcode　119杨辉三角 IIpascals-triangle-ii JavaScript实现　*/
+
 /** * @param {number} rowIndex * @return {number[]} */
 var getRow = function(k) { /*    一个数组，保存上一行值*/
     var arr = [];

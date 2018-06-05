@@ -1,3 +1,5 @@
+/* leetcode　167两数之和 II - 输入有序数组two-sum-ii-input-array-is-sorted JavaScript实现　*/
+
 /** * @param {number[]} numbers * @param {number} target * @return {number[]} */
 var twoSum = function(numbers, target) {
     for (var i = 0; i < numbers.length; i++) {

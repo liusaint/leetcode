@@ -1,3 +1,5 @@
+/* leetcode　169求众数majority-element JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number} */
 var majorityElement = function(nums) {
     var len = nums.length;

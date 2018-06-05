@@ -1,3 +1,5 @@
+/* leetcode　3263的幂power-of-three JavaScript实现　*/
+
 /** * @param {number} n * @return {boolean} */ /*不用循环怎么做*/
 var isPowerOfThree = function(n) {
     if (n < 1) {

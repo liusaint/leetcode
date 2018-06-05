@@ -1,3 +1,5 @@
+/* leetcode　744寻找比目标字母大的最小字母find-smallest-letter-greater-than-target JavaScript实现　*/
+
 /** * @param {character[]} letters * @param {character} target * @return {character} */
 var nextGreatestLetter = function(letters, target) {
     var arr = 'abcdefghijklmnopqrstuvwxyz'.split('');

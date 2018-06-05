@@ -1,3 +1,5 @@
+/* leetcode　459重复的子字符串repeated-substring-pattern JavaScript实现　*/
+
 /** * @param {string} s * @return {boolean} */
 var repeatedSubstringPattern = function(s) {
     var strLen = s.length;

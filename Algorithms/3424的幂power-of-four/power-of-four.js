@@ -1,3 +1,5 @@
+/* leetcode　3424的幂power-of-four JavaScript实现　*/
+
 /** * @param {number} num * @return {boolean} */
 var isPowerOfFour = function(n) {
     if (n < 1) {

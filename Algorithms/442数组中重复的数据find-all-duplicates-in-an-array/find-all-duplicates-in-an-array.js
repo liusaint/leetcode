@@ -1,3 +1,5 @@
+/* leetcode　442数组中重复的数据find-all-duplicates-in-an-array JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number[]} */
 var findDuplicates = function(nums) { /*    长度*/
     var len = nums.length; /*    生成一个每个值为0的数组。长度为数组长度。*/

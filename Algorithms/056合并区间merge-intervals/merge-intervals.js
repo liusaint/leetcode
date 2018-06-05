@@ -1,3 +1,5 @@
+/* leetcode　056合并区间merge-intervals JavaScript实现　*/
+
 var merge = function(intervals) { /*    保存结果*/
     var res = []; /*    遍历*/
     for (var i = 0; i < intervals.length; i++) {

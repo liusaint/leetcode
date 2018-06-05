@@ -1,3 +1,5 @@
+/* leetcode　198打家劫舍house-robber JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number} */
 var rob = function(nums) {
     var len = nums.length;

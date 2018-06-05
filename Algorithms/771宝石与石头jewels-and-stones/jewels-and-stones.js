@@ -1,3 +1,5 @@
+/* leetcode　771宝石与石头jewels-and-stones JavaScript实现　*/
+
 /** * @param {string} J * @param {string} S * @return {number} */
 var numJewelsInStones = function(J, S) {
     var jArr = J.split('');

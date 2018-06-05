@@ -1,3 +1,5 @@
+/* leetcode　662二叉树最大宽度maximum-width-of-binary-tree JavaScript实现　*/
+
 /*层次遍历，每个节点加一个index。根据上层index和left,right来计算下层的index。*/
 var widthOfBinaryTree = function(root) {
     if (root == null) {

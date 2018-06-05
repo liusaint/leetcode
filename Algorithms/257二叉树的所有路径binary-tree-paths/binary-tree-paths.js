@@ -1,3 +1,5 @@
+/* leetcode　257二叉树的所有路径binary-tree-paths JavaScript实现　*/
+
 /*递归的时候把上一级的path和结论的arr传入。*/
 var binaryTreePaths = function(root, path, arr) {
     if (!root) {

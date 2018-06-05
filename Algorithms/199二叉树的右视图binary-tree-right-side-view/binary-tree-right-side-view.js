@@ -1,3 +1,5 @@
+/* leetcode　199二叉树的右视图binary-tree-right-side-view JavaScript实现　*/
+
 /*层次遍历返回每层最右一个。*/
 var rightSideView = function(root) {
     if (root == null) {

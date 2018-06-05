@@ -1,3 +1,5 @@
+/* leetcode　098验证二叉搜索树validate-binary-search-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @return {boolean} */
 var isValidBST = function(root) { /*    检测子节点是否符合要求。*/
     var checkChild = function(root, centerVal, dir) {

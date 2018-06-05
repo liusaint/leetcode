@@ -1,3 +1,5 @@
+/* leetcode　058最后一个单词的长度length-of-last-word JavaScript实现　*/
+
 /** * @param {string} s * @return {number} */
 var lengthOfLastWord = function(s) {
     s = s.trim();

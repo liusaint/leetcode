@@ -1,3 +1,5 @@
+/* leetcode　230二叉搜索树中第K小的元素kth-smallest-element-in-a-bst JavaScript实现　*/
+
 /*二叉搜索树中序遍历的结果是一个有序数组。*/
 var kthSmallest = function(root, k) {
     var readRoot = function(root, callback) {

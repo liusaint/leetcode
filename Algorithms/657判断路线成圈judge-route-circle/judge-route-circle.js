@@ -1,3 +1,5 @@
+/* leetcode　657判断路线成圈judge-route-circle JavaScript实现　*/
+
 /** * @param {string} moves * @return {boolean} */ /*只需要判断L的数量等于R的数量。U的数量等于D的数量？*/
 var judgeCircle = function(moves) {
     var Ls = moves.match(/L/g);

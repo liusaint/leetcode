@@ -1,3 +1,5 @@
+/* leetcode　065有效数字valid-number JavaScript实现　*/
+
 /** * @param {string} s * @return {boolean} */ /* 处理" -."*/ /* 处理"+.8"*/ /* 处理"46.e3" true*/ /* 处理".e1" false*/ /* 处理" 005047e+6" true;*/ /* 处理"4e+" false*/
 var isNumber = function(s) {
     str = s.trim();

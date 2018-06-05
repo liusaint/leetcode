@@ -1,3 +1,5 @@
+/* leetcode　500键盘行keyboard-row JavaScript实现　*/
+
 /** * @param {string[]} words * @return {string[]} */ /*判断每个匹配的数量与字符串长度。*/
 var findWords = function(words) {
     var res = [];

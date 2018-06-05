@@ -1,3 +1,5 @@
+/* leetcode　290单词模式word-pattern JavaScript实现　*/
+
 /** * @param {string} pattern * @param {string} str * @return {boolean} */
 var wordPattern = function(pattern, str) {
     var pArr = pattern.split('');

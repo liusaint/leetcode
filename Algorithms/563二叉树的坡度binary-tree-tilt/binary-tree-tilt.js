@@ -1,3 +1,5 @@
+/* leetcode　563二叉树的坡度binary-tree-tilt JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @return {number} */
 var findTilt = function(root) { /*    求node和。*/
     function nodeSum(root) {

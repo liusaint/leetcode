@@ -1,3 +1,5 @@
+/* leetcode　345反转字符串中的元音字母reverse-vowels-of-a-string JavaScript实现　*/
+
 /** * @param {string} s * @return {string} */ /*把元音匹配出来翻转一下，再遍历数组，遇到元音就取第一个匹配给它。*/
 var reverseVowels = function(s) {
     if (s == undefined || s == '') {

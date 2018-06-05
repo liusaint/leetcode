@@ -1,3 +1,5 @@
+/* leetcode　784字母大小写全排列letter-case-permutation JavaScript实现　*/
+
 /** * @param {string} S * @return {string[]} */
 var letterCasePermutation = function(S) {
     if (S.length == 0) {

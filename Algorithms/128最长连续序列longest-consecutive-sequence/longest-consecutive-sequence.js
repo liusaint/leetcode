@@ -1,3 +1,5 @@
+/* leetcode　128最长连续序列longest-consecutive-sequence JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number} */
 var longestConsecutive = function(nums) {
     var item;

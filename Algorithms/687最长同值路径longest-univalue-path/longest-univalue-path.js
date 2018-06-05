@@ -1,3 +1,5 @@
+/* leetcode　687最长同值路径longest-univalue-path JavaScript实现　*/
+
 var longestUnivaluePath = function(root) { /*    找一个节点的同值路长度。*/ /*    传递了isRoot，表示是这次查找的根。返回左右之和。*/ /*    否则返回最大的那个。*/
     var findPath = function(root, path, isRoot) {
         if (!root) {

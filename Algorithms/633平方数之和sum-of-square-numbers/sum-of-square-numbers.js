@@ -1,3 +1,5 @@
+/* leetcode　633平方数之和sum-of-square-numbers JavaScript实现　*/
+
 /** * @param {number} c * @return {boolean} */
 var judgeSquareSum = function(c) {
     var i = 0;

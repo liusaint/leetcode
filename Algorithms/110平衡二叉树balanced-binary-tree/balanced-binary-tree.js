@@ -1,3 +1,5 @@
+/* leetcode　110平衡二叉树balanced-binary-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @return {boolean} */
 var isBalanced = function(root) {
     if (!root) {

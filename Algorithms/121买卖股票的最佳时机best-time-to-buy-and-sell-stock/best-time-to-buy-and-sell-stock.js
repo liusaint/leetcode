@@ -1,3 +1,5 @@
+/* leetcode　121买卖股票的最佳时机best-time-to-buy-and-sell-stock JavaScript实现　*/
+
 var maxProfit = function(prices) {
     var n = prices.length;
     var maxProfit = 0;

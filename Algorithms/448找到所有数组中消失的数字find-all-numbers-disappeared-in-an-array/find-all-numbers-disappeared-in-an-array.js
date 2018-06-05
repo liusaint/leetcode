@@ -1,3 +1,5 @@
+/* leetcode　448找到所有数组中消失的数字find-all-numbers-disappeared-in-an-array JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number[]} */
 var findDisappearedNumbers = function(nums) {
     var len = nums.length; /*    不用循环生成数组0到n*/

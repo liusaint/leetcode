@@ -1,3 +1,5 @@
+/* leetcode　007反转整数reverse-integer JavaScript实现　*/
+
 /** * @param {number} x * @return {number} */
 var reverse = function(x) {
     var sign = '';

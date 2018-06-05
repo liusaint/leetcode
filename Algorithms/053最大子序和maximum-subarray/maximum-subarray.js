@@ -1,3 +1,5 @@
+/* leetcode　053最大子序和maximum-subarray JavaScript实现　*/
+
 /*一段一段地计算比较。不以负数开头和结尾。不过要考虑全是负数的情况*/ /*小于0了就重启一段。复杂度O(n);*/
 var maxSubArray = function(nums) {
     var max = nums[0];

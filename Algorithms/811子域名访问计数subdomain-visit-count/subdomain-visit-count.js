@@ -1,3 +1,5 @@
+/* leetcode　811子域名访问计数subdomain-visit-count JavaScript实现　*/
+
 /** * @param {string[]} cpdomains * @return {string[]} */
 var subdomainVisits = function(cpdomains) {
     var obj = {};

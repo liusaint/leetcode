@@ -1,3 +1,5 @@
+/* leetcode　118杨辉三角pascals-triangle JavaScript实现　*/
+
 /** * @param {number} numRows * @return {number[][]} */
 var generate = function(numRows) { /*    一个数组，保存上一行值*/
     var resArr = [];

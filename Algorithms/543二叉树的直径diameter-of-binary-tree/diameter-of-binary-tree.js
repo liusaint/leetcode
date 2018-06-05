@@ -1,3 +1,5 @@
+/* leetcode　543二叉树的直径diameter-of-binary-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @return {number} */
 var diameterOfBinaryTree = function(root) {
     var max = 0; /*    核心思想是计算每个节点左右高度和。加起来就是这个节点下的最大路径。假设每个最长路径都要经过一个根节点。*/

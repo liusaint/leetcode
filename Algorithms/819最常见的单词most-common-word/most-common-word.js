@@ -1,3 +1,5 @@
+/* leetcode　819最常见的单词most-common-word JavaScript实现　*/
+
 /** * @param {string} paragraph * @param {string[]} banned * @return {string} */
 var mostCommonWord = function(paragraph, banned) { /*    转成小写先。*/
     var s = paragraph.toLocaleLowerCase(); /*    替换标点符号*/

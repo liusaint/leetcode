@@ -1,3 +1,5 @@
+/* leetcode　628三个数的最大乘积maximum-product-of-three-numbers JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number} */
 var maximumProduct = function(nums) {
     var sotedArr = nums.sort(function(a, b) {

@@ -1,3 +1,5 @@
+/* leetcode　179最大数largest-number JavaScript实现　*/
+
 /*20180429*/ /*一些考虑的情况 128，12;121，12;   3, 30, 34;  883,8;    8308,830;85,87*/
 var largestNumber = function(nums) {
     var sortedStrs = nums.map(function(v) {

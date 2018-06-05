@@ -1,3 +1,5 @@
+/* leetcode　2312的幂power-of-two JavaScript实现　*/
+
 /** * @param {number} n * @return {boolean} */
 var isPowerOfTwo = function(n) {
     if (n < 1) {

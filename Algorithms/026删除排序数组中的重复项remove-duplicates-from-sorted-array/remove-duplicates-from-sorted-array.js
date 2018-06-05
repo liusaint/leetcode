@@ -1,3 +1,5 @@
+/* leetcode　026删除排序数组中的重复项remove-duplicates-from-sorted-array JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {number} */
 var removeDuplicates = function(nums) { /*    已成功的,放到一个字符串中。给每一项加上前后缀确保完全匹配*/ /*    跟成功的匹配上了就删除。说明重复。*/
     var okStr = '';

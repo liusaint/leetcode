@@ -1,3 +1,5 @@
+/* leetcode　008字符串转整数 (atoi)string-to-integer-atoi JavaScript实现　*/
+
 /** * @param {string} str * @return {number} */
 var myAtoi = function(str) {
     str = str.trim();

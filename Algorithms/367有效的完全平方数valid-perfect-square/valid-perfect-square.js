@@ -1,3 +1,5 @@
+/* leetcode　367有效的完全平方数valid-perfect-square JavaScript实现　*/
+
 /** * @param {number} num * @return {boolean} */
 var isPerfectSquare = function(num) {
     if (num == 0) {

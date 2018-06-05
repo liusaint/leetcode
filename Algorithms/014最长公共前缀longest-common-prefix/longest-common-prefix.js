@@ -1,3 +1,5 @@
+/* leetcode　014最长公共前缀longest-common-prefix JavaScript实现　*/
+
 /** * @param {string[]} strs * @return {string} */
 var longestCommonPrefix = function(strs) {
     if (strs.length == 0) {

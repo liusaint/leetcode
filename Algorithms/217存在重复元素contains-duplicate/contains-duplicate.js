@@ -1,3 +1,5 @@
+/* leetcode　217存在重复元素contains-duplicate JavaScript实现　*/
+
 /** * @param {number[]} nums * @return {boolean} */
 var containsDuplicate = function(nums) {
     var len = nums.length;

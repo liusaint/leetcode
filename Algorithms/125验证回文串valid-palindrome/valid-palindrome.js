@@ -1,3 +1,5 @@
+/* leetcode　125验证回文串valid-palindrome JavaScript实现　*/
+
 /** * @param {string} s * @return {boolean} */
 var isPalindrome = function(s) {
     if (s.length == 0) {

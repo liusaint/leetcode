@@ -1,3 +1,5 @@
+/* leetcode　728自除数self-dividing-numbers JavaScript实现　*/
+
 /** * @param {number} left * @param {number} right * @return {number[]} */
 var selfDividingNumbers = function(left, right) {
     var item = left;

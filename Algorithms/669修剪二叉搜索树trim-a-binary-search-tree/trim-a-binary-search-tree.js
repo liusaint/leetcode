@@ -1,3 +1,5 @@
+/* leetcode　669修剪二叉搜索树trim-a-binary-search-tree JavaScript实现　*/
+
 /** * Definition for a binary tree node. * function TreeNode(val) { *     this.val = val; *     this.left = this.right = null; * } */ /** * @param {TreeNode} root * @param {number} L * @param {number} R * @return {TreeNode} */
 var trimBST = function(root, L, R) {
     if (!root) {

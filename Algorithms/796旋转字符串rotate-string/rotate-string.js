@@ -1,3 +1,5 @@
+/* leetcode　796旋转字符串rotate-string JavaScript实现　*/
+
 /** * @param {string} A * @param {string} B * @return {boolean} */
 var rotateString = function(A, B) {
     if (A.length != B.length) {

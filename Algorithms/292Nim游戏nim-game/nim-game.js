@@ -1,3 +1,5 @@
+/* leetcode　292Nim游戏nim-game JavaScript实现　*/
+
 /** * @param {number} n * @return {boolean} */
 var canWinNim = function(n) {
     var first = n % 4; /*    第一把拿了，剩下的如果是4的位数就稳赢了。*/
