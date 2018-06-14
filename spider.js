@@ -108,7 +108,7 @@ let questionArr = [];
 function createTable(arr) {
     var header = ` 序号 | 题名 | 通过率 | 难度 | 答案 |状态  \n---|---|---|---|---|---\n`
     var resArr = arr.map(function(obj) {
-        var look = obj.gitHref ? `[查看](${obj.gitHref})` : '';
+        var look = obj.gitHref ? `[JavaScript](${obj.gitHref})` : '';
         return ` ${obj.index} | [${obj.title}](${obj.href}) | ${obj.rate} | ${obj.level} | ${look} | ${obj.status}`;
     })
     return header + resArr.join('\n');
